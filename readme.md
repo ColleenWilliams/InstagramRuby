@@ -1,3 +1,7 @@
+# Process
+- Goals
+  Try to read and internalize the error messages
+  Move slowly, and be deliberate about following the process we outlined.
 1. Map out the relationships
 users
   - has_many pictures
@@ -35,7 +39,7 @@ picture.comments
   select * from comments where comments.picture_id = self.id
 
 
-Todo
+# Todo
 A. Ruby
   1. Associate pictures and users in ruby
     user.pictures
