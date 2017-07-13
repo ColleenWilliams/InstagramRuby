@@ -40,13 +40,14 @@ picture.comments
 
 
 # Todo
-A. Ruby
+## A. Ruby
   1. Associate pictures and users in ruby
     user.pictures
     picture.user
   2. Associate comments and users
     user.comments
       all of the comments that a user has received about its pictures
-B. Think about how this translates to sql
+## B. Sql
+Think about how this translates to sql
   1. model the tables
   2. think about the has many and belongs to sql calls
